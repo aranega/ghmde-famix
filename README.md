@@ -9,3 +9,7 @@ model := nil.
 'model/ghmde.mse' asFileReference readStreamDo: [:stream | model := GhmdeModel importFromMSEStream: stream ].
 model install
 ```
+
+## What the metamodel looks like?
+
+![ghmde](ghmde.png)
